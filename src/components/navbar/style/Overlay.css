@@ -1,0 +1,35 @@
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    background-color: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    overflow-y: hidden;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #707070;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay.active {
+    height: 100%!important;
+}
